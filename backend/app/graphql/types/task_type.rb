@@ -1,5 +1,6 @@
 module Types
   class TaskType < Types::BaseObject
+    # タスクの型を決める
     field :id, ID, null: false
     field :title, String, null: true
     field :description, String, null: true
